@@ -66,26 +66,43 @@ header {
 // home
 .home {
     margin-top: 24px;
-    background-image: url('../images/hero_img.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+    .homeSwiper {
+        .swiper-slide {
+            position: relative;
+            height: 750px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+            }
+
+            h2 {
+                position: absolute;
+                z-index: 3;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                max-width: 667px;
+                margin: 0 auto;
+                color: #FFF;
+                text-align: center;
+                font-family: $Montserrat;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 76px;
+                letter-spacing: -2.1px;
+            }
+        }
+    }
     .home_text {
         padding: 320px 0 278px 0;
         h1 {
             // display: flex;
             // align-items: center;
             // justify-content: center;
-            max-width: 667px;
-            margin: 0 auto;
-            color: #FFF;
-            text-align: center;
-            font-family: $Montserrat;
-            font-size: 70px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 76px;
-            letter-spacing: -2.1px;
         }
     }
 }
@@ -186,6 +203,8 @@ header {
             }
 
             a {
+                white-space: nowrap;
+                // padding: 13px 21px;
                 width: 198px;
                 height: 50px;
                 display: flex;
@@ -206,6 +225,28 @@ header {
                 line-height: normal;
                 background: #fff;
                 border: 2px solid #F2AB4D;
+                transition: .25s ease;
+
+                img {
+                    position: absolute;
+                    right: 21px;
+                    z-index: -1;
+                    transition: .25s ease;
+                    margin-left: 5px;
+                    opacity: 0;
+                    min-width: 20px;
+                }
+
+                &:hover {
+                    padding-right: 25px;
+                    width: 215px;
+
+                    img {
+                        right: 11px;
+                        z-index: 1;
+                        opacity: 1;
+                    }
+                }
             }
         }
 
@@ -348,7 +389,7 @@ header {
                         margin-bottom: 24px;
                     }
 
-                    a {
+                    button {
                         padding: 5px 13px;
                         color: #000;
                         text-align: justify;

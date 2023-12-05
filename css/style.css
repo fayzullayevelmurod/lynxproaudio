@@ -51,15 +51,23 @@ header .nav_item a:hover {
 
 .home {
   margin-top: 24px;
-  background-image: url("../images/hero_img.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
-.home .home_text {
-  padding: 320px 0 278px 0;
+.home .homeSwiper .swiper-slide {
+  position: relative;
+  height: 750px;
 }
-.home .home_text h1 {
+.home .homeSwiper .swiper-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.home .homeSwiper .swiper-slide h2 {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   max-width: 667px;
   margin: 0 auto;
   color: #FFF;
@@ -71,7 +79,9 @@ header .nav_item a:hover {
   line-height: 76px;
   letter-spacing: -2.1px;
 }
-
+.home .home_text {
+  padding: 320px 0 278px 0;
+}
 .products {
   margin-bottom: 70px;
   margin-top: 50px;
@@ -154,6 +164,7 @@ header .nav_item a:hover {
   line-height: normal;
 }
 .product_spotlight .main_container .product_spotlight a {
+  white-space: nowrap;
   width: 198px;
   height: 50px;
   display: flex;
@@ -174,6 +185,25 @@ header .nav_item a:hover {
   line-height: normal;
   background: #fff;
   border: 2px solid #F2AB4D;
+  transition: 0.25s ease;
+}
+.product_spotlight .main_container .product_spotlight a img {
+  position: absolute;
+  right: 21px;
+  z-index: -1;
+  transition: 0.25s ease;
+  margin-left: 5px;
+  opacity: 0;
+  min-width: 20px;
+}
+.product_spotlight .main_container .product_spotlight a:hover {
+  padding-right: 25px;
+  width: 215px;
+}
+.product_spotlight .main_container .product_spotlight a:hover img {
+  right: 11px;
+  z-index: 1;
+  opacity: 1;
 }
 .product_spotlight .main_container .product_spotlight_list {
   margin-top: 49px;
@@ -299,7 +329,7 @@ header .nav_item a:hover {
   line-height: normal;
   margin-bottom: 24px;
 }
-.news .main_container .news_cards .new_card .new_card_text a {
+.news .main_container .news_cards .new_card .new_card_text button {
   padding: 5px 13px;
   color: #000;
   text-align: justify;
