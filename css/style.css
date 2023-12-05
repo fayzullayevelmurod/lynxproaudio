@@ -4,4 +4,390 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.main_container {
+  max-width: 1190px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+header .main_container {
+  padding: 7px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav_link {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+header .nav_item a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #666;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.2s ease;
+}
+header .nav_item a:hover {
+  opacity: 0.5;
+}
+
+.home {
+  margin-top: 24px;
+  background-image: url("../images/hero_img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home .home_text {
+  padding: 320px 0 278px 0;
+}
+.home .home_text h1 {
+  max-width: 667px;
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 76px;
+  letter-spacing: -2.1px;
+}
+
+.products {
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.products .main_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.products .product_card {
+  width: calc(50% - 15px);
+  position: relative;
+}
+.products .product_name {
+  padding: 11px 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background: rgba(210, 210, 210, 0.84);
+}
+
+.product_spotlight .main_container h3 {
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+.product_spotlight .main_container p {
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+.product_spotlight .main_container .product_spotlight {
+  position: relative;
+  background-image: url("../images/product_main_bg.png");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.product_spotlight .main_container .product_spotlight h4 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 31px 0 4px 0;
+}
+.product_spotlight .main_container .product_spotlight img {
+  margin: 0 auto;
+}
+.product_spotlight .main_container .product_spotlight p {
+  padding: 4px 0 89px 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.product_spotlight .main_container .product_spotlight a {
+  width: 198px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -32px;
+  border-radius: 3px;
+  color: #666;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #fff;
+  border: 2px solid #F2AB4D;
+}
+.product_spotlight .main_container .product_spotlight_list {
+  margin-top: 49px;
+  margin-bottom: 70px;
+}
+.product_spotlight .main_container .product_spotlight_list li {
+  padding-left: 30px;
+  position: relative;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  margin-bottom: 11px;
+}
+.product_spotlight .main_container .product_spotlight_list li::after {
+  content: " ";
+  position: absolute;
+  left: 11px;
+  top: 35%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.product_spotlight .main_container .product_spotlight_cards {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 54px;
+}
+.product_spotlight .main_container .product_spotlight_cards .product_spotlight_card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 15px);
+}
+.product_spotlight .main_container .product_spotlight_cards .product_spotlight_card h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.product_spotlight .main_container .product_spotlight_cards .product_spotlight_card img {
+  height: 276px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.product_spotlight .main_container .product_spotlight_cards .product_spotlight_card .product_spotlight_card_link {
+  display: block;
+  height: 44px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #000;
+}
+
+.news {
+  padding: 54px 0 93px 0;
+  background: #EDEDED;
+}
+.news .main_container h2 {
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 3px;
+}
+.news .main_container p {
+  color: #848484;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 41px;
+}
+.news .main_container .news_cards {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.news .main_container .news_cards .new_card {
+  border-radius: 30px;
+  overflow: hidden;
+  width: calc(33.3333333333% - 15px);
+  background: #FFF;
+  filter: drop-shadow(0px 12px 18px rgba(0, 0, 0, 0.25));
+}
+.news .main_container .news_cards .new_card .new_card_text {
+  padding: 25px;
+}
+.news .main_container .news_cards .new_card .new_card_text h5 {
+  color: #333;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+.news .main_container .news_cards .new_card .new_card_text p {
+  color: #666;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.news .main_container .news_cards .new_card .new_card_text a {
+  padding: 5px 13px;
+  color: #000;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #F2AB4D;
+  background: #FFF;
+}
+
+footer {
+  background: #1E1E1E;
+}
+footer .main_container {
+  padding: 64px 0 50px 0;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+footer .main_container h4 {
+  color: #CECECE;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+footer .main_container p {
+  color: #CECECE;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+footer .main_container .footer_left {
+  max-width: 336px;
+}
+footer .main_container .footer_left .subscrib {
+  margin-top: 22px;
+  color: #CECECE;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .main_container .footer_right {
+  max-width: 281px;
+}
+
+.footer_bottom {
+  background: #0A0A0A;
+}
+.footer_bottom .main_container {
+  padding: 15px 0;
+}
+.footer_bottom .main_container p {
+  color: #C0C0C0;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer_bottom .main_container p a {
+  font-weight: 600;
+  text-decoration-line: underline;
+  transition: 0.2s ease;
+}
+.footer_bottom .main_container p a:hover {
+  color: #666;
+}
+.footer_bottom .main_container .footer_messenger {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer_bottom .main_container .footer_messenger a img {
+  transition: 0.2s ease;
+}
+.footer_bottom .main_container .footer_messenger a:hover img {
+  opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
