@@ -29,14 +29,52 @@ img {
 // header
 header {
     .main_container {
+        overflow: hidden;
         padding: 7px 0;
+        height: 76px;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
     }
+
+    .nav_search_block {
+        transition: .4s ease;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        height: 0;
+        opacity: 0;
+        position: relative;
+        z-index: -1;
+
+        input {
+            cursor: auto;
+            width: 100%;
+            color: #666;
+            font-family: $Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .search_block_close {
+            cursor: pointer;
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .nav_search_block.active {
+        padding: 70px 0 50px 0;
+        height: 76px;
+        opacity: 1;
+        z-index: 1;
+    }
     
     .nav_link {
+        transition: .4s ease;
         display: flex;
         align-items: center;
         gap: 22px;
