@@ -4,7 +4,11 @@ var swiper = new Swiper(".homeSwiper", {
     loop: true,
     autoplay: {
         delay: 5000,
-      },
+    },
+    navigation: {
+        nextEl: ".homeSwiper_next",
+        prevEl: ".homeSwiper_prev",
+    },
 });
 
 

@@ -106,6 +106,28 @@ header {
     margin-top: 24px;
 
     .homeSwiper {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .homeSwiper_btn {
+            cursor: pointer;
+            position: absolute;
+            z-index: 10;
+            width: 35px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .homeSwiper_next {
+            right: 15px;
+        }
+        
+        .homeSwiper_prev {
+            transform: rotate(180deg);
+            left: 15px;
+        }
         .swiper-slide {
             position: relative;
             height: 750px;

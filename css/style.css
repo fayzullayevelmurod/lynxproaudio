@@ -86,6 +86,27 @@ header .nav_item a:hover {
 .home {
   margin-top: 24px;
 }
+.home .homeSwiper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.home .homeSwiper .homeSwiper_btn {
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  width: 35px;
+}
+.home .homeSwiper .homeSwiper_btn img {
+  width: 100%;
+}
+.home .homeSwiper .homeSwiper_next {
+  right: 15px;
+}
+.home .homeSwiper .homeSwiper_prev {
+  transform: rotate(180deg);
+  left: 15px;
+}
 .home .homeSwiper .swiper-slide {
   position: relative;
   height: 750px;
