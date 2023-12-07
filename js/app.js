@@ -17,6 +17,25 @@ var swiper = new Swiper(".homeSwiper", {
 });
 
 
+// news slider
+var swiper = new Swiper(".newsSlider", {
+    spaceBetween: 30,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    navigation: {
+        nextEl: ".homeSwiper_next",
+        prevEl: ".homeSwiper_prev",
+    },
+    pagination: {
+        el: '#news .home_swiper_pagination',
+        clickable: true
+    }
+});
+
+
 // search
 let nav_search = document.querySelector('.nav_search');
 let nav_search_block = document.querySelector('.nav_search_block');
