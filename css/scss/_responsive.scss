@@ -1,3 +1,170 @@
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 992px) {
+    .main_container {
+        padding: 0 40px;
+    }
 
+    header {
+        .main_container {
+            padding: 0 40px;
+        }
+        .nav {
+            width: 70%;
+            justify-content: end;
+            .nav_item {
+                display: none;
+            }   
+            
+            .nav_search {
+                margin-left: auto;
+                display: block;
+            }
+
+            .nav_search.active {
+                padding: 72px 0 50px 0;
+            }
+
+            .burger_open {
+                display: block;
+            }
+        }
+    }
+
+    .home {
+        .homeSwiper {
+            .swiper-slide {
+                height: 600px;
+
+                h2 {
+                    font-size: 42px;
+                    line-height: 42px;
+                }
+            }
+        }
+    }
+
+    .products {
+        .product_card {
+            width: calc(100%);
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .product_spotlight {
+        .main_container {
+            .product_spotlight_cards {
+                flex-direction: column;
+
+                .product_spotlight_card {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .news {
+        .main_container {
+            .news_cards {
+                flex-direction: column;
+
+                .new_card {
+                    border-top-right-radius: 60px;
+                    border-top-left-radius: 60px;
+                    width: calc(100%);
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .main_container {
+            padding: 64px 40px 50px 40px;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .footer_bottom {
+            .main_container {
+                padding: 15px 40px;
+                flex-direction: column-reverse;
+                gap: 15px;
+
+                .footer_messenger {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        .main_container {
+            height: 60px;
+
+            .nav {
+                width: 60%;
+            }
+
+            .nav_search_block.active {
+                padding: 70px 0 50px 0;
+            }
+        }
+
+        .media_menu_container {
+            .media_menu {
+                top: 55px;
+                width: 90%;
+            }
+        }
+    }
+
+    .home {
+        .homeSwiper {
+            .swiper-slide {
+                h2 {
+                    font-size: 36px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+    .products {
+        .product_name {
+            font-size: 16px;
+        }
+    }
+
+    .news {
+        .main_container {
+            .news_cards {
+
+                .new_card {
+                    border-top-right-radius: 30px;
+                    border-top-left-radius: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main_container {
+        padding: 0 20px;
+    }
+
+    header {
+        .media_menu_container {
+            .media_menu {
+                width: 80%;
+            }
+        }
+    }
 }
