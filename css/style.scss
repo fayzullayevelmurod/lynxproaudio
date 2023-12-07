@@ -176,12 +176,14 @@ header {
 // home
 .home {
     margin-top: 24px;
+    position: relative;
 
     .homeSwiper {
         display: flex;
         align-items: center;
         position: relative;
         transition: .3s ease;
+        z-index: 1;
 
         &:hover {
             .homeSwiper_btn {
@@ -253,6 +255,38 @@ header {
     }
     .home_text {
         padding: 320px 0 278px 0;
+    }
+
+    .home_swiper_pagination {
+        position: absolute;
+        z-index: 2;
+        bottom: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: .2s ease;
+
+        span {
+            opacity: .5;
+            margin: 0;
+            padding: 0;
+            border-radius: 0;
+            background: rgba(204,204,204,1);
+            width: 60px;
+            height: 3px;
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+    }
+
+    &:hover {
+        .home_swiper_pagination {
+            opacity: 1;
+        }
     }
 }
 // home

@@ -10,6 +10,10 @@ var swiper = new Swiper(".homeSwiper", {
         nextEl: ".homeSwiper_next",
         prevEl: ".homeSwiper_prev",
     },
+    pagination: {
+        el: '.home .home_swiper_pagination',
+        clickable: true
+    }
 });
 
 

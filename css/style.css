@@ -150,12 +150,14 @@ header .burger_open .bottom_none {
 
 .home {
   margin-top: 24px;
+  position: relative;
 }
 .home .homeSwiper {
   display: flex;
   align-items: center;
   position: relative;
   transition: 0.3s ease;
+  z-index: 1;
 }
 .home .homeSwiper:hover .homeSwiper_btn {
   opacity: 1;
@@ -218,6 +220,32 @@ header .burger_open .bottom_none {
 }
 .home .home_text {
   padding: 320px 0 278px 0;
+}
+.home .home_swiper_pagination {
+  position: absolute;
+  z-index: 2;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.2s ease;
+}
+.home .home_swiper_pagination span {
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: rgb(204, 204, 204);
+  width: 60px;
+  height: 3px;
+}
+.home .home_swiper_pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.home:hover .home_swiper_pagination {
+  opacity: 1;
 }
 
 .products {
