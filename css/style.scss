@@ -25,7 +25,6 @@ img {
     margin: 0 auto;
 }
 
-
 // header
 header {
     position: sticky;
@@ -387,7 +386,6 @@ header {
 
             a {
                 white-space: nowrap;
-                // padding: 13px 21px;
                 width: 198px;
                 height: 50px;
                 display: flex;
@@ -506,7 +504,6 @@ header {
 }
 // product_spotlight
 
-
 // news
 .news {
     padding: 54px 0 93px 0;
@@ -591,6 +588,193 @@ header {
     }
 }
 // news
+
+
+// contact page
+#contact {
+    .contact_banner {
+        height: 339px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .contact_form {
+        .main_container {
+            max-width: 756px;
+            margin: 0 auto;
+
+            h3 {
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin: 54px 0 27px 0;
+            }
+
+            .contact_form_main {
+                .contact_form_top {
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+                    margin-bottom: 14px;
+
+                    input {
+                        cursor: auto;
+                        width: 100%;
+                        height: 50px;
+                        padding: 16px 15px;
+                        color: #666;
+                        font-family: $Lato;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        background: #EEE;
+                    }
+                }
+
+                textarea {
+                    cursor: auto;
+                    height: 150px;
+                    width: 100%;
+                    resize: none;
+                    padding: 16px 15px;
+                    color: #666;
+                    font-family: $Lato;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    background: #EEE;
+                }
+
+                button {
+                    margin-left: auto;
+                    margin-top: 14px;
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 3px;
+                    border: 1px solid #333;
+                    background: #FFF;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    position: relative;
+                    transition: .25s ease;
+
+                    img {
+                        position: absolute;
+                        right: 21px;
+                        z-index: -1;
+                        transition: .25s ease;
+                        margin-left: 5px;
+                        opacity: 0;
+                        min-width: 15px;
+                    }
+    
+                    &:hover {
+                        padding-right: 15px;
+                        width: 150px;
+    
+                        img {
+                            right: 11px;
+                            z-index: 1;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            
+            p {
+                margin: 24px 0 99px 0;
+                color: #666;
+                font-family: $Lato;
+                font-size: 14px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px; /* 185.714% */
+
+                a {
+                    display: inline;
+                    font-style: normal;
+                    border-bottom: 1px solid ;
+                }
+            }
+        } 
+    }
+
+    .contact_messenger {
+        display: flex;
+        align-items: start;
+        gap: 60px;
+        justify-content: center;
+        margin-bottom: 27px;
+
+        .contact_messenger_block {
+            width: 320px;
+            text-align: center;
+
+            .messenger_img {
+                margin: 0 auto 32px auto;
+                width: 98px;
+                height: 98px;
+                background-color: #000;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h4 {
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+
+    .contact_date {
+        text-align: center;
+        width: 203px;
+        margin: 0 auto 54px auto;
+        color: #666;
+        text-align: center;
+        font-family: $Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 185.714% */
+    }
+}
+// contact page
+
+
+
+
+
+
+
+
+
+
+
 
 
 // footer
