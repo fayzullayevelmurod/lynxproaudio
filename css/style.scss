@@ -45,7 +45,6 @@ header {
     }
     
     .media_menu_container {
-        overflow: visible;
         position: relative;
         .media_menu {
             height: 0;
@@ -56,7 +55,7 @@ header {
             border-top: 1px solid #F2AB4D;
             background-color: #fff;
             position: absolute;
-            top: 70px;
+            top: 0;
             left: 0;
             right: 0;
             margin: 0 auto;

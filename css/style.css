@@ -38,7 +38,6 @@ header .main_container {
   justify-content: space-between;
 }
 header .media_menu_container {
-  overflow: visible;
   position: relative;
 }
 header .media_menu_container .media_menu {
@@ -50,7 +49,7 @@ header .media_menu_container .media_menu {
   border-top: 1px solid #F2AB4D;
   background-color: #fff;
   position: absolute;
-  top: 70px;
+  top: 0;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -629,6 +628,11 @@ footer .main_container .footer_right {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 992px) {
+  header .media_menu_container .media_menu {
+    display: none;
+  }
+}
 @media only screen and (max-width: 768px) {
   header .main_container {
     height: 60px;
@@ -640,7 +644,6 @@ footer .main_container .footer_right {
     padding: 70px 0 50px 0;
   }
   header .media_menu_container .media_menu {
-    top: 55px;
     width: 90%;
   }
   .home .homeSwiper .swiper-slide h2 {
