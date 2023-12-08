@@ -1303,6 +1303,104 @@ header {
 }
 // news page
 
+// update page
+#update {
+    .main_container {
+        .update_top {
+            padding-bottom: 56px;
+            border-bottom: 1px solid #000;
+            h3 {
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 43px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin: 27px 0 54px 0;
+            }
+
+            p {
+                color: #333;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 27px;
+                margin-bottom: 30px;
+            }
+
+            .update_main_img {
+                margin: 0 auto 59px auto;
+            }
+
+            .update_link_one {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                justify-content: center;
+                color: #000;
+                font-family: $Lato;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 27px; /* 96.429% */
+                margin-bottom: 13px;
+            }
+
+            .update_link_two {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #F2AB4D;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .update_bottom {
+            margin-bottom: 54px;
+            h5 {
+                margin: 54px auto 27px auto;
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .update_cards {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                gap: 113px;
+
+                img {
+                    width: 194px;
+                    height: 194px;
+                }
+
+                h4 {
+                    margin-top: 5px;
+                    color: #000;
+                    text-align: center;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px; /* 133.333% */
+                }
+            }
+        }
+    }
+}
+// update page
 
 
 

@@ -1125,6 +1125,91 @@ header .burger_open .bottom_none {
   background: #333;
 }
 
+#update .main_container .update_top {
+  padding-bottom: 56px;
+  border-bottom: 1px solid #000;
+}
+#update .main_container .update_top h3 {
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 27px 0 54px 0;
+}
+#update .main_container .update_top p {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+#update .main_container .update_top .update_main_img {
+  margin: 0 auto 59px auto;
+}
+#update .main_container .update_top .update_link_one {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 96.429% */
+  margin-bottom: 13px;
+}
+#update .main_container .update_top .update_link_two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#update .main_container .update_bottom {
+  margin-bottom: 54px;
+}
+#update .main_container .update_bottom h5 {
+  margin: 54px auto 27px auto;
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#update .main_container .update_bottom .update_cards {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 113px;
+}
+#update .main_container .update_bottom .update_cards img {
+  width: 194px;
+  height: 194px;
+}
+#update .main_container .update_bottom .update_cards h4 {
+  margin-top: 5px;
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
 footer {
   background: #1E1E1E;
 }
@@ -1312,6 +1397,11 @@ footer .main_container .footer_right {
   }
   .news_form_wrapper .main_container .news_form .news_form_inputs .news_form_input input {
     width: 100%;
+  }
+  #update .main_container .update_bottom .update_cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
 @media only screen and (min-width: 992px) {
