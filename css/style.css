@@ -1151,6 +1151,30 @@ header .burger_open .bottom_none {
 #update .main_container .update_top .update_main_img {
   margin: 0 auto 59px auto;
 }
+#update .main_container .update_top .update_list {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+#update .main_container .update_top .update_list .update_list_block {
+  width: calc(50% - 15px);
+}
+#update .main_container .update_top .update_list .update_list_block li {
+  list-style: disc;
+  list-style-position: inside;
+  color: #666;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 168.75% */
+  margin-bottom: 15px;
+}
+#update .main_container .update_top .update_list .update_list_block li::marker {
+  margin: 0 10px 0 0 !important;
+}
 #update .main_container .update_top .update_link_one {
   display: flex;
   align-items: center;
@@ -1442,6 +1466,12 @@ footer .main_container .footer_right {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+  }
+  #update .main_container .update_top .update_list {
+    gap: 0;
+  }
+  #update .main_container .update_top .update_list .update_list_block {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 992px) {

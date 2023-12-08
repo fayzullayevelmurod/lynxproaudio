@@ -1334,6 +1334,32 @@ header {
                 margin: 0 auto 59px auto;
             }
 
+            .update_list {
+                display: flex;
+                align-items: start;
+                gap: 30px;
+                flex-wrap: wrap;
+                margin-bottom: 30px;
+                .update_list_block {
+                    width: calc(100% / 2 - 15px);
+                    li {
+                        list-style: disc;
+                        list-style-position: inside;
+                        color: #666;
+                        font-family: Lato;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 27px; /* 168.75% */
+                        margin-bottom: 15px;
+
+                        &::marker {
+                            margin: 0 10px 0 0 !important;
+                        }
+                    }
+                }
+            }
+
             .update_link_one {
                 display: flex;
                 align-items: center;

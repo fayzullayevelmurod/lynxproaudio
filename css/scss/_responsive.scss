@@ -216,6 +216,19 @@
         }
     }
 
+    #update {
+        .main_container {
+            .update_top {
+                .update_list {
+                    gap: 0;
+                    .update_list_block {
+                        width: calc(100%);
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
