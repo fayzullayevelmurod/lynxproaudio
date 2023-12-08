@@ -1176,6 +1176,37 @@ header .burger_open .bottom_none {
   font-weight: 400;
   line-height: normal;
 }
+#update .main_container .update_top .ark_soft_btns {
+  display: flex;
+  align-items: start;
+  gap: 130px;
+}
+#update .main_container .update_top .ark_soft_btns a {
+  width: 518px;
+  display: flex;
+  align-items: start;
+  gap: 128px;
+}
+#update .main_container .update_top .ark_soft_btns a h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+#update .main_container .update_top .ark_soft_btns a span {
+  margin-left: 75px;
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 #update .main_container .update_bottom {
   margin-bottom: 54px;
 }
@@ -1398,6 +1429,15 @@ footer .main_container .footer_right {
   .news_form_wrapper .main_container .news_form .news_form_inputs .news_form_input input {
     width: 100%;
   }
+  #update .main_container .update_top .ark_soft_btns {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  #update .main_container .update_top .ark_soft_btns a {
+    width: 400px;
+    gap: 30px;
+  }
   #update .main_container .update_bottom .update_cards {
     flex-direction: column;
     align-items: center;
@@ -1473,6 +1513,13 @@ footer .main_container .footer_right {
     top: 80%;
     width: 120px;
     height: 40px;
+  }
+  #update .main_container .update_top .ark_soft_btns a {
+    gap: 15px;
+    width: 300px;
+  }
+  #update .main_container .update_top .ark_soft_btns a span {
+    margin-left: 55px;
   }
   header .media_menu_container .media_menu {
     width: 80%;

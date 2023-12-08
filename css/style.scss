@@ -1360,6 +1360,40 @@ header {
                 font-weight: 400;
                 line-height: normal;
             }
+
+            .ark_soft_btns {
+                display: flex;
+                align-items: start;
+                gap: 130px;
+
+                a {
+                    width: 518px;
+                    display: flex;
+                    align-items: start;
+                    gap: 128px;
+                    h4 {
+                        color: #000;
+                        text-align: center;
+                        font-family: $Lato;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 27px;
+                        margin-bottom: 15px;
+                    }
+
+                    span {
+                        margin-left: 75px;
+                        color: #F2AB4D;
+                        text-align: center;
+                        font-family: $Lato;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
         }
 
         .update_bottom {

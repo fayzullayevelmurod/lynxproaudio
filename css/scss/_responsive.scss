@@ -193,6 +193,19 @@
 
     #update {
         .main_container {
+            .update_top {
+                .ark_soft_btns {
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 30px;
+                    
+                    a {
+                        width: 400px;
+                        gap: 30px;
+                    }
+                }
+            }
+
             .update_bottom {
                 .update_cards {
                     flex-direction: column;
@@ -343,6 +356,23 @@
                         top: 80%;
                         width: 120px;
                         height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    #update {
+        .main_container {
+            .update_top {
+                .ark_soft_btns {
+                    a {
+                        gap: 15px;
+                        width: 300px;
+
+                        span {
+                            margin-left: 55px;
+                        }
                     }
                 }
             }
