@@ -18,7 +18,7 @@ var swiper = new Swiper(".homeSwiper", {
 
 
 // news slider
-var swiper = new Swiper(".newsSlider", {
+var swiperNews = new Swiper(".newsSlider", {
     spaceBetween: 30,
     effect: "fade",
     loop: true,
@@ -33,6 +33,20 @@ var swiper = new Swiper(".newsSlider", {
         el: '#news .home_swiper_pagination',
         clickable: true
     }
+});
+
+// new slider
+var swiperNew = new Swiper(".newSlider", {
+    spaceBetween: 30,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    navigation: {
+        nextEl: ".homeSwiper_next",
+        prevEl: ".homeSwiper_prev",
+    },
 });
 
 
