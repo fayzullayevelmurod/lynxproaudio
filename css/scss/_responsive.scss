@@ -172,6 +172,20 @@
                 
             }
         }
+
+        .reference_bottom {
+            .main_container {
+                flex-direction: column;
+                align-items: center;
+
+                .reference_card {
+                    width: 100%;
+                    img {
+                        height: auto;
+                    }
+                }
+            }
+        }
     }
 
     .news_form_wrapper {
@@ -264,6 +278,7 @@
             }
         }
     }
+
 
 }
 
