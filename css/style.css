@@ -2047,6 +2047,124 @@ header .burger_open .bottom_none {
   background: #F2F2F2;
 }
 
+#catalogues .catalogues_home {
+  position: relative;
+  margin-bottom: 54px;
+}
+#catalogues .catalogues_home img {
+  width: 100%;
+  height: 339px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#catalogues .catalogues_home h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#catalogues .catalogues_main {
+  max-width: 672px;
+  margin: 0 auto;
+  text-align: center;
+}
+#catalogues .catalogues_main img, #catalogues .catalogues_main iframe {
+  width: 100%;
+}
+#catalogues .catalogues_main h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+#catalogues .catalogues_main span {
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+#catalogues .catalogues_main .catalogues_main_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 54px;
+}
+#catalogues .catalogues_main .catalogues_main_btns a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 23px;
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.2s ease;
+  border-radius: 90px;
+  border: 1px solid #333;
+  background: #FFF;
+  position: relative;
+}
+#catalogues .catalogues_main .catalogues_main_btns a img {
+  width: 24px;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  right: 50px;
+  transition: 0.3s ease;
+}
+#catalogues .catalogues_main .catalogues_main_btns a:hover {
+  background: #F2F2F2;
+  padding: 13px 40px 13px 23px;
+}
+#catalogues .catalogues_main .catalogues_main_btns a:hover img {
+  opacity: 1;
+  z-index: 1;
+  right: 10px;
+}
+#catalogues .catalogues_cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 54px;
+}
+#catalogues .catalogues_cards .catalogues_card {
+  width: calc(50% - 15px);
+}
+#catalogues .catalogues_cards .catalogues_card a img, #catalogues .catalogues_cards .catalogues_card a iframe {
+  width: 100%;
+}
+#catalogues .catalogues_cards .catalogues_card h4 {
+  margin-bottom: 10px;
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 footer {
   background: #1E1E1E;
 }
@@ -2387,6 +2505,27 @@ footer .main_container .footer_right {
   }
   #products .main_container .software_card {
     margin: 0 auto;
+  }
+  #catalogues .catalogues_home img {
+    height: 220px;
+  }
+  #catalogues .catalogues_home h3 {
+    font-size: 36px;
+  }
+  #catalogues .catalogues_main .catalogues_main_btns {
+    flex-direction: column;
+  }
+  #catalogues .catalogues_main .catalogues_main_btns img {
+    width: 26px;
+  }
+  #catalogues .catalogues_cards {
+    flex-direction: column;
+  }
+  #catalogues .catalogues_cards .catalogues_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 576px) {

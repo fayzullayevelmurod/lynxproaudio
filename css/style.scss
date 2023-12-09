@@ -2360,6 +2360,143 @@ header {
 }
 // products page
 
+// catalogues page
+#catalogues {
+    .catalogues_home {
+        position: relative;
+        margin-bottom: 54px;
+
+        img {
+            width: 100%;
+            height: 339px;
+            object-fit: cover;
+        }
+
+        h3 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #FFF;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+    .catalogues_main {
+        max-width: 672px;
+        margin: 0 auto;
+        text-align: center;
+
+        img, iframe {
+            width: 100%;
+        }
+
+        h4 {
+            color: #000;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 10px;
+        }
+
+        span {
+            color: #F2AB4D;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-top: 10px;
+            margin-bottom: 24px;
+        }
+
+        .catalogues_main_btns {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 54px;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 13px 23px;
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                transition: .2s ease;
+                border-radius: 90px;
+                border: 1px solid #333;
+                background: #FFF;
+                position: relative;
+
+                img {
+                    width: 24px;
+                    position: absolute;
+                    opacity: 0;
+                    z-index: -1;
+                    right: 50px;
+                    transition: .3s ease;
+                }
+
+                &:hover {
+                    background: #F2F2F2;
+                    padding: 13px 40px 13px 23px;
+                    img {
+                        opacity: 1;
+                        z-index: 1;
+                        right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .catalogues_cards {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 54px;
+
+        .catalogues_card {
+            width: calc(100% / 2 - 15px);
+
+            a {
+                img, iframe {
+                    width: 100%;
+                }
+            }
+
+            h4 {
+                margin-bottom: 10px;
+                color: #000;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+}
+// catalogues page
+
 
 
 
