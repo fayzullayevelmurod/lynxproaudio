@@ -279,6 +279,28 @@
         }
     }
 
+    #products {
+        .main_container {
+            .product_cards {
+                .product_card {
+                    width: calc(100% / 2 - 15px);
+                }
+            }
+
+            .products_form {
+                flex-direction: column;
+
+                .products_form_left {
+                    max-width: 100%;
+                }
+
+                .products_form_right {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
 
 }
 
@@ -423,6 +445,31 @@
             }
         }
     }
+
+    #products {
+        .main_container {
+            .product_cards {
+                .product_card {
+                    width: calc(100%);
+                }
+            }
+
+            .processors_card {
+                margin: 0 auto;
+            }
+
+            .power_cards {
+                .power_card {
+                    margin: 0 auto;
+                }
+
+            }
+
+            .software_card {
+                margin: 0 auto;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -432,6 +479,14 @@
     
     .news_form_wrapper {
         margin: 0 20px;
+    }
+
+    #products {
+        .main_container {
+            .breadcrumb {
+                flex-wrap: wrap;
+            }
+        }
     }
 
     #news {
@@ -459,6 +514,18 @@
                         span {
                             margin-left: 55px;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    #products {
+        .main_container {
+            .products_form {
+                .products_form_right {
+                    .inputs {
+                        flex-direction: column;
                     }
                 }
             }
