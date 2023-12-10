@@ -35,6 +35,24 @@ var swiperNews = new Swiper(".newsSlider", {
     }
 });
 
+// coaxialSwiper slider
+var swiperNews = new Swiper(".coaxialSwiper", {
+    spaceBetween: 30,
+    effect: "fade",
+    loop: true,
+    autoplay: {
+        delay: 5000,
+    },
+    navigation: {
+        nextEl: ".homeSwiper_next",
+        prevEl: ".homeSwiper_prev",
+    },
+    pagination: {
+        el: '#coaxial .home_swiper_pagination',
+        clickable: true
+    }
+});
+
 // new slider
 var swiperNew = new Swiper(".newSlider", {
     spaceBetween: 30,

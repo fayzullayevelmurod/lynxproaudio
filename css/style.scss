@@ -2497,6 +2497,134 @@ header {
 }
 // catalogues page
 
+// coaxial page
+#coaxial {
+    .coaxial_home {
+        position: relative;
+        .coaxialSwiper {
+            display: flex;
+            align-items: center;
+            position: relative;
+            transition: .3s ease;
+            z-index: 1;
+    
+            &:hover {
+                .homeSwiper_btn {
+                    opacity: 1;
+                }
+            }
+    
+            .homeSwiper_btn {
+                background-color: #fff;
+                cursor: pointer;
+                position: absolute;
+                border-radius: 50%;
+                z-index: 10;
+                width: 30px;
+                height: 30px;
+                border: 1px solid #1E3050FF;
+                transition: .2s ease;
+                opacity: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                &:hover {
+                    opacity: 1;
+                }
+    
+                img {
+                    transform: scale(1.2);
+                    width: 30px;
+                }
+            }
+    
+            .homeSwiper_next {
+                right: 15px;
+            }
+            
+            .homeSwiper_prev {
+                transform: rotate(180deg);
+                left: 15px;
+            }
+            .swiper-slide {
+                position: relative;
+                height: 750px;
+    
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    height: 100%;
+                }
+            }
+        }
+    
+        .slider_text {
+            text-align: center;
+            position: absolute;
+            z-index: 3;
+            left: 0;
+            right: 0;
+            bottom: 97px;
+            max-width: 667px;
+            margin: 0 auto;
+
+            h2 {
+                color: #F2AB4D;
+                font-family: $Montserrat;
+                font-size: 70px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            span {
+                margin-top: 10px;
+                color: #F2AB4D;
+                font-family: $Montserrat;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    
+        .home_swiper_pagination {
+            position: absolute;
+            z-index: 6;
+            bottom: 24px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            opacity: 0;
+            transition: .2s ease;
+    
+            span {
+                border-radius: 3px;
+                opacity: .5;
+                margin: 0;
+                padding: 0;
+                background: rgba(204,204,204,1);
+                width: 60px;
+                height: 3px;
+            }
+    
+            .swiper-pagination-bullet-active {
+                opacity: 1;
+            }
+        }
+    
+        &:hover {
+            .home_swiper_pagination {
+                opacity: 1;
+            }
+        }
+    }
+}
+// coaxial page
+
 
 
 
