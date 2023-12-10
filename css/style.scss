@@ -2622,6 +2622,297 @@ header {
             }
         }
     }
+
+    .main_container {
+        .coaxial_series {
+            margin-top: 54px;
+            h3 {
+                color: #333;
+                font-family: $Lato;
+                font-size: 43px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+
+            span {
+                color: #F2AB4D;
+                font-family: $Lato;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 35px;
+            }
+            
+            .coaxial_series_in {
+                display: flex;
+                align-items: start;
+                gap: 70px;
+
+                .coaxial_series_left {
+                    max-width: 550px;
+                    p {
+                        color: #333;
+                        font-family: $Lato;
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 30px;
+                    }
+
+                    .coaxial_series_left_list {
+                        display: flex;
+                        align-items: start;
+                        gap: 16px;
+
+                        ul {
+                            color: #333;
+                            font-family: $Lato;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+
+                            li {
+                                color: #333;
+                                font-family: $Lato;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .coaxial_series_right {
+                    .coaxial_series_right_block {
+                        display: flex;
+                        align-items: start;
+                        gap: 16px;
+                        margin-bottom: 27px;
+
+                        h4 {
+                            color: #F2AB4D;
+                            font-family: $Lato;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 28px;
+                            margin-bottom: 10px;
+                        }
+
+                        p {
+                            color: #333;
+                            font-family: $Lato;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 25px;
+                        }
+                    }
+                }
+            }
+
+            .coaxial_series_cards {
+                .coaxial_series_cards_top {
+                    display: flex;
+                    align-items: start;
+                    gap: 30px;  
+                    flex-wrap: wrap;
+
+                    .coaxial_series_card {
+                        max-width: 370px;
+                        padding: 20px 35px 40px 35px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        p {
+                            color: #042F40;
+                            text-align: center;
+                            font-family: $Lato;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 10px;
+                        }
+
+                        span {
+                            color: #F2AB4D;
+                            text-align: center;
+                            font-family: $Lato;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 20px;
+                        }
+
+                        button {
+                            padding: 10px 34px;
+                            border-radius: 3px;
+                            color: #333;
+                            text-align: center;
+                            font-family: $Lato;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            border-radius: 3px;
+                            border: 1px solid #000;
+                            transition: .2s ease;
+
+
+                            &:hover {
+                                background: #F2F2F2;
+                                border: 1px solid transparent;
+                            }
+                        }
+                    }
+                }
+                
+                .coaxial_series_cards_bottom {
+                    display: flex;
+                    align-items: start;
+                    flex-wrap: wrap;
+                    gap: 30px;  
+                    margin-bottom: 156px;
+
+                    .coaxial_series_card {
+                        max-width: 370px;
+                        padding: 20px 35px 40px 35px;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        p {
+                            color: #042F40;
+                            text-align: center;
+                            font-family: $Lato;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 10px;
+                        }
+
+                        span {
+                            color: #F2AB4D;
+                            text-align: center;
+                            font-family: $Lato;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-bottom: 20px;
+                        }
+
+                        button {
+                            padding: 10px 34px;
+                            border-radius: 3px;
+                            color: #333;
+                            text-align: center;
+                            font-family: $Lato;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            border-radius: 3px;
+                            border: 1px solid #000;
+                            transition: .2s ease;
+
+
+                            &:hover {
+                                background: #F2F2F2;
+                                border: 1px solid transparent;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .coaxial_configuration {
+                margin-bottom: 31px;
+                border-bottom: 3px solid #F2AB4D;
+                h3 {
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    padding-bottom: 15px;
+                    border-bottom: 3px solid #F2AB4D;
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                h6 {
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                p {
+                    margin-top: 10px;
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 29px;
+                }
+
+                .coaxial_panel {
+                    margin-top: 5px;
+                    border: 1px solid #C0C0C0;
+                    padding: 6px 22px;
+                    max-width: 897px;
+                    margin-bottom: 24px;
+
+                    .coaxial_panel_block {
+                        padding-right: 48px;
+                        display: flex;
+                        align-items: center;
+                        gap: 48px;
+                        margin-bottom: 12px;
+
+                        a {
+                            flex: 1;
+                        }
+
+                        .coaxial_panel_block_text {
+                            flex: 1;
+                            padding: auto 48px;
+                            p , ul , li {
+                                color: #333;
+                                font-family: $Lato;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                                margin-bottom: 22px;
+                            }
+                        }
+                    }
+                }
+
+                .coaxial_bottom {
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
 }
 // coaxial page
 

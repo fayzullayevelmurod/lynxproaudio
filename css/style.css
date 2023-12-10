@@ -2271,6 +2271,261 @@ header .burger_open .bottom_none {
 #coaxial .coaxial_home:hover .home_swiper_pagination {
   opacity: 1;
 }
+#coaxial .main_container .coaxial_series {
+  margin-top: 54px;
+}
+#coaxial .main_container .coaxial_series h3 {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+#coaxial .main_container .coaxial_series span {
+  color: #F2AB4D;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in {
+  display: flex;
+  align-items: start;
+  gap: 70px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_left {
+  max-width: 550px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_left p {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_left .coaxial_series_left_list {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_left .coaxial_series_left_list ul {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_left .coaxial_series_left_list ul li {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_right .coaxial_series_right_block {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  margin-bottom: 27px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_right .coaxial_series_right_block h4 {
+  color: #F2AB4D;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_in .coaxial_series_right .coaxial_series_right_block p {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top .coaxial_series_card {
+  max-width: 370px;
+  padding: 20px 35px 40px 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top .coaxial_series_card p {
+  color: #042F40;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top .coaxial_series_card span {
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top .coaxial_series_card button {
+  padding: 10px 34px;
+  border-radius: 3px;
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 3px;
+  border: 1px solid #000;
+  transition: 0.2s ease;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top .coaxial_series_card button:hover {
+  background: #F2F2F2;
+  border: 1px solid transparent;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 156px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom .coaxial_series_card {
+  max-width: 370px;
+  padding: 20px 35px 40px 35px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom .coaxial_series_card p {
+  color: #042F40;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom .coaxial_series_card span {
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom .coaxial_series_card button {
+  padding: 10px 34px;
+  border-radius: 3px;
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 3px;
+  border: 1px solid #000;
+  transition: 0.2s ease;
+}
+#coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom .coaxial_series_card button:hover {
+  background: #F2F2F2;
+  border: 1px solid transparent;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration {
+  margin-bottom: 31px;
+  border-bottom: 3px solid #F2AB4D;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration h3 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #F2AB4D;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration h6 {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration p {
+  margin-top: 10px;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 29px;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel {
+  margin-top: 5px;
+  border: 1px solid #C0C0C0;
+  padding: 6px 22px;
+  max-width: 897px;
+  margin-bottom: 24px;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block {
+  padding-right: 48px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 12px;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block a {
+  flex: 1;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block .coaxial_panel_block_text {
+  flex: 1;
+  padding: auto 48px;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block .coaxial_panel_block_text p, #coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block .coaxial_panel_block_text ul, #coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block .coaxial_panel_block_text li {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 22px;
+}
+#coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_bottom {
+  padding-bottom: 20px;
+}
 
 footer {
   background: #1E1E1E;
@@ -2527,6 +2782,16 @@ footer .main_container .footer_right {
   #products .main_container .products_form .products_form_right {
     width: 100%;
   }
+  #coaxial .main_container .coaxial_series .coaxial_series_in {
+    flex-direction: column;
+  }
+  #coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_top,
+  #coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom {
+    justify-content: center;
+  }
+  #coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom {
+    margin-bottom: 54px;
+  }
 }
 @media only screen and (min-width: 992px) {
   header .media_menu_container .media_menu {
@@ -2633,6 +2898,19 @@ footer .main_container .footer_right {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+  }
+  #coaxial .coaxial_home .slider_text h2 {
+    font-size: 39px;
+  }
+  #coaxial .coaxial_home .slider_text span {
+    font-size: 20px;
+  }
+  #coaxial .coaxial_home .coaxialSwiper .swiper-slide {
+    height: 540px;
+  }
+  #coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block {
+    padding-right: 0;
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 576px) {

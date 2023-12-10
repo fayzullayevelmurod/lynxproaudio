@@ -301,6 +301,26 @@
         }
     }
 
+    #coaxial {
+        .main_container {
+            .coaxial_series {
+                .coaxial_series_in {
+                    flex-direction: column;
+                }
+
+                .coaxial_series_cards {
+                    .coaxial_series_cards_top, 
+                    .coaxial_series_cards_bottom {
+                        justify-content: center;
+                    }
+
+                    .coaxial_series_cards_bottom {
+                        margin-bottom: 54px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -501,6 +521,37 @@
                 flex-direction: column;
                 justify-content: center;
                 width: 100%;
+            }
+        }
+    }
+
+    #coaxial {
+        .coaxial_home {
+            .slider_text {
+                h2 {
+                    font-size: 39px;
+                }
+
+                span {
+                    font-size: 20px;
+                }
+            }
+            .coaxialSwiper {
+                .swiper-slide {
+                    height: 540px;
+                }
+            }
+        }
+        .main_container {
+            .coaxial_series {
+                .coaxial_configuration {
+                    .coaxial_panel {
+                        .coaxial_panel_block {
+                            padding-right: 0;
+                            flex-direction: column;
+                        }
+                    }
+                }
             }
         }
     }
