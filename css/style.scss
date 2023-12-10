@@ -2916,6 +2916,234 @@ header {
 }
 // coaxial page
 
+// about page
+#about {
+    position: relative;
+    background: linear-gradient(180deg, #FFF 59.37%, #F2F2FA 100%);
+    .about_home {
+        position: relative;
+        height: 725px;
+
+        .about_btn {
+            text-align: center;
+            padding: 25px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+
+            span {
+                position: absolute;
+                bottom: -32px;
+                left: 0;
+                width: 100%;
+                color: #FFF;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .about_main_img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .about_effekt {
+        max-width: 1920px;
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .about_container {
+        max-width: 1730px;
+        margin: 0 auto;
+    }
+
+    .philosophy {
+        margin-top: 58px;
+        height: 486px;
+        padding: 24px 0 75px 280px;
+        width: 100%;
+        background-image: url('../images/philosophy_img.png');
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+        .philosophy_text {
+            max-width: 711px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 70px;
+
+            h4 {
+                color: #333;
+                font-family: $Lato;
+                font-size: 35px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: #424242;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+            }
+
+            .philosophy_text_p {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .about_main_text {
+        position: relative;
+        z-index: 2;
+        margin: 0 auto 33px auto;
+        max-width: 830px;
+        text-align: center;
+
+        h5 {
+            color: #333;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 35px;
+        }
+        p {
+            margin-bottom: 38px;
+            color: #000;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px; /* 181.25% */
+        }
+        span {
+            height: 2px;
+            width: 230px;
+            margin: 0 auto;
+            margin-bottom: 77px;
+            background: #C0C0C0;
+        }
+        h6 {
+            margin-bottom: 13px;
+            color: #C0C0C0;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .about_main_text_title {
+            margin-bottom: 19px;
+        }
+
+        .about_main_text_bottom {
+            margin: 0 auto;
+            max-width: 744px;
+        }
+
+        .about_main_bottom {
+            margin-top: 139px;
+            margin-bottom: 27px;
+        }
+    }
+}
+
+.about_cards {
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+
+    .about_card_line {
+        z-index: -1;
+        position: absolute;
+        width: 2px;
+        background-color: #000;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+
+    .about_card_top {
+        padding-top: 128px;
+    }
+
+    .about_card {
+        display: flex;
+        align-items: center;
+        gap: 62px;
+        margin-bottom: 190px;
+
+        .about_card_left {
+            img {
+                max-width: 554px;
+            }
+        }
+
+        .about_right {
+            h3 {
+                color: #000;
+                font-family: $Lato;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 41px;
+            }
+
+            span {
+                height: 4px;
+                width: 78px;
+                background: #F2AB4D;
+                margin-bottom: 31px;
+            }
+
+            p {
+                color: #000;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 31px;
+                margin-bottom: 35px;
+            }
+        }
+    }
+
+    .about_card_right {
+        text-align: right;
+    }
+}
+// about page
+
 
 
 

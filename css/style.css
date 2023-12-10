@@ -2527,6 +2527,206 @@ header .burger_open .bottom_none {
   padding-bottom: 20px;
 }
 
+#about {
+  position: relative;
+  background: linear-gradient(180deg, #FFF 59.37%, #F2F2FA 100%);
+}
+#about .about_home {
+  position: relative;
+  height: 725px;
+}
+#about .about_home .about_btn {
+  text-align: center;
+  padding: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+#about .about_home .about_btn span {
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#about .about_home .about_main_img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+#about .about_effekt {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#about .about_container {
+  max-width: 1730px;
+  margin: 0 auto;
+}
+#about .philosophy {
+  margin-top: 58px;
+  height: 486px;
+  padding: 24px 0 75px 280px;
+  width: 100%;
+  background-image: url("../images/philosophy_img.png");
+  background-attachment: local;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#about .philosophy .philosophy_text {
+  max-width: 711px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 70px;
+}
+#about .philosophy .philosophy_text h4 {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+#about .philosophy .philosophy_text p {
+  color: #424242;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+}
+#about .philosophy .philosophy_text .philosophy_text_p {
+  margin-bottom: 30px;
+}
+#about .about_main_text {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto 33px auto;
+  max-width: 830px;
+  text-align: center;
+}
+#about .about_main_text h5 {
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+#about .about_main_text p {
+  margin-bottom: 38px;
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 181.25% */
+}
+#about .about_main_text span {
+  height: 2px;
+  width: 230px;
+  margin: 0 auto;
+  margin-bottom: 77px;
+  background: #C0C0C0;
+}
+#about .about_main_text h6 {
+  margin-bottom: 13px;
+  color: #C0C0C0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#about .about_main_text .about_main_text_title {
+  margin-bottom: 19px;
+}
+#about .about_main_text .about_main_text_bottom {
+  margin: 0 auto;
+  max-width: 744px;
+}
+#about .about_main_text .about_main_bottom {
+  margin-top: 139px;
+  margin-bottom: 27px;
+}
+
+.about_cards {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.about_cards .about_card_line {
+  z-index: -1;
+  position: absolute;
+  width: 2px;
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+}
+.about_cards .about_card_top {
+  padding-top: 128px;
+}
+.about_cards .about_card {
+  display: flex;
+  align-items: center;
+  gap: 62px;
+  margin-bottom: 190px;
+}
+.about_cards .about_card .about_card_left img {
+  max-width: 554px;
+}
+.about_cards .about_card .about_right h3 {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 41px;
+}
+.about_cards .about_card .about_right span {
+  height: 4px;
+  width: 78px;
+  background: #F2AB4D;
+  margin-bottom: 31px;
+}
+.about_cards .about_card .about_right p {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  margin-bottom: 35px;
+}
+.about_cards .about_card_right {
+  text-align: right;
+}
+
 footer {
   background: #1E1E1E;
 }
