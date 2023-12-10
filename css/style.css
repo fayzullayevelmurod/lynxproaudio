@@ -2723,8 +2723,126 @@ header .burger_open .bottom_none {
   line-height: 31px;
   margin-bottom: 35px;
 }
+.about_cards .about_card_bottom {
+  padding-bottom: 92px;
+  margin-bottom: 50px;
+}
 .about_cards .about_card_right {
   text-align: right;
+}
+
+.about_technology {
+  text-align: center;
+}
+.about_technology span {
+  margin: 0 auto 33px auto;
+  width: 230px;
+  height: 2px;
+  background: #C0C0C0;
+}
+.about_technology h6 {
+  color: #F2AB4D;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.about_technology h3 {
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+.about_technology p {
+  margin: 0 auto 59px auto;
+  max-width: 830px;
+  color: #666;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.about_technology .about_technology_cards {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+.about_technology .about_technology_cards .about_technology_card {
+  max-width: 270px;
+}
+.about_technology .about_technology_cards .about_technology_card h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.about_technology .about_technology_cards .about_technology_card img {
+  margin: 10px 0;
+}
+.about_technology .about_technology_cards .about_technology_card p {
+  color: #7C7C7C;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.about_technology .coral_line {
+  width: 78px;
+  height: 4px;
+  background: #F2AB4D;
+  margin: 0 auto 35px auto;
+}
+
+.culture {
+  background-image: url("../images/culture_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.culture .main_container {
+  padding: 70px 0 115px 0;
+}
+.culture span {
+  color: #F2AB4D;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.culture h3 {
+  color: #FFF;
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.culture p {
+  color: #FFF;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+}
+.culture .culture_text {
+  margin-bottom: 32px;
 }
 
 footer {

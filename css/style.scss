@@ -3138,8 +3138,140 @@ header {
         }
     }
 
+    .about_card_bottom {
+        padding-bottom: 92px;
+        margin-bottom: 50px;
+    }
+
     .about_card_right {
         text-align: right;
+    }
+}
+
+.about_technology {
+    text-align: center;
+    span {
+        margin: 0 auto 33px auto;
+        width: 230px;
+        height: 2px;
+        background: #C0C0C0;
+    }
+
+    h6 {
+        color: #F2AB4D;
+        text-align: center;
+        font-family: $Lato;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 4px;
+    }
+    
+    h3 {
+        color: #000;
+        text-align: center;
+        font-family: $Lato;
+        font-size: 47px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 33px;
+    }
+
+    p {
+        margin: 0 auto 59px auto;
+        max-width: 830px;
+        color: #666;
+        text-align: center;
+        font-family: $Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .about_technology_cards {
+        display: flex;
+        align-items: start;
+        gap: 30px;
+
+        .about_technology_card {
+            max-width: 270px;
+            h4 {
+                color: #000;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+            }
+
+            img {
+                margin: 10px 0;
+            }
+
+            p {
+                color: #7C7C7C;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 150% */
+            }
+        }
+    }
+
+    .coral_line {
+        width: 78px;
+        height: 4px;
+        background: #F2AB4D;
+        margin: 0 auto 35px auto;
+    }
+}
+
+.culture {
+    background-image: url('../images/culture_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .main_container {
+        padding: 70px 0 115px 0;
+    }
+
+    span {
+        color: #F2AB4D;
+        font-family: $Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        color: #FFF;
+        font-family: $Lato;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 32px;
+    }
+
+    p {
+        color: #FFF;
+        font-family: $Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 31px;
+    }
+    
+    .culture_text {
+        margin-bottom: 32px;
     }
 }
 // about page
