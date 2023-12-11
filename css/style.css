@@ -2581,15 +2581,13 @@ header .burger_open .bottom_none {
   margin: 0 auto;
 }
 #about .philosophy {
-  margin-bottom: 43px;
-  margin-top: 58px;
+  margin: 58px 10px 43px 10px;
   height: 486px;
   padding: 24px 0 75px 280px;
-  width: 100%;
+  max-width: 1730px;
   background-image: url("../images/philosophy_img.png");
   background-attachment: local;
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 #about .philosophy .philosophy_text {
   max-width: 711px;
@@ -2675,6 +2673,7 @@ header .burger_open .bottom_none {
 .about_cards {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 10px;
   position: relative;
 }
 .about_cards .about_card_line {
@@ -2814,7 +2813,7 @@ header .burger_open .bottom_none {
   background-size: cover;
 }
 .culture .main_container {
-  padding: 70px 0 115px 0;
+  padding: 70px 10px 115px 10px;
 }
 .culture span {
   color: #F2AB4D;
