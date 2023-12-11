@@ -2893,6 +2893,74 @@ header .burger_open .bottom_none {
   justify-content: center;
 }
 
+#download .download_home {
+  margin-bottom: 72px;
+  background-image: url("../images/download_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#download .download_home h3 {
+  padding: 139px 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#download .product_spotlight_cards {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 54px;
+}
+#download .product_spotlight_cards .product_spotlight_card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 15px);
+}
+#download .product_spotlight_cards .product_spotlight_card h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#download .product_spotlight_cards .product_spotlight_card img {
+  height: 276px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#download .product_spotlight_cards .product_spotlight_card .product_spotlight_card_link {
+  display: block;
+  height: 44px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #000;
+}
+#download .catalog h3 {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+#download .catalog .catalog_table {
+  border: 1px solid #DEDEDE;
+}
+
 footer {
   background: #1E1E1E;
 }

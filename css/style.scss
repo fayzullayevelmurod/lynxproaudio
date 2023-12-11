@@ -3328,6 +3328,86 @@ header {
 }
 // about page
 
+// download page
+#download {
+
+    .download_home {
+        margin-bottom: 72px;
+        background-image: url('../images/download_img.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        h3 {
+            padding: 139px 0;
+            color: #FFF;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    .product_spotlight_cards {
+        display: flex;
+        align-items: start;
+        gap: 30px;
+        margin-bottom: 54px;
+
+        .product_spotlight_card {
+            display: flex;
+            flex-direction: column;
+            width: calc(100% / 2 - 15px);
+
+            h4 {
+                color: #000;
+                text-align: center;
+                font-family: $Montserrat;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+
+            img {
+                height: 276px;
+                object-fit: contain;
+            }
+
+            .product_spotlight_card_link {
+                display: block;
+                height: 44px;
+                color: #FFF;
+                text-align: center;
+                font-family: $Montserrat;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+                background: #000;
+            }
+        }
+    }
+
+    .catalog {
+        h3 {
+            color: #000;
+            font-family: $Lato;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 27px;
+        }
+
+        .catalog_table {
+            border: 1px solid #DEDEDE;
+        }
+    }
+}
+// download page
+
 
 
 
