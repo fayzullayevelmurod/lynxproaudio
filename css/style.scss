@@ -3330,6 +3330,7 @@ header {
 
 // download page
 #download {
+    margin-bottom: 54px;
 
     .download_home {
         margin-bottom: 72px;
@@ -3473,6 +3474,32 @@ header {
                     font-weight: 400;
                     line-height: normal;
                 }
+            }
+        }
+
+        .wcx_series {
+            .block {
+                width: calc(100% / 4);
+            }
+        }
+
+        .amplifiers_block {
+            .block {
+                width: calc(100% / 4);
+            }
+        }
+
+        .gtx_block {
+            .block {
+                width: calc(100% / 2);
+            }
+        }
+    }
+
+    .series_blocks {
+        .series_block {
+            .block {
+                width: calc(100% / 5) !important;
             }
         }
     }

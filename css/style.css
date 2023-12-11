@@ -2893,6 +2893,9 @@ header .burger_open .bottom_none {
   justify-content: center;
 }
 
+#download {
+  margin-bottom: 54px;
+}
 #download .download_home {
   margin-bottom: 72px;
   background-image: url("../images/download_img.png");
@@ -3020,6 +3023,18 @@ header .burger_open .bottom_none {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+#download .catalog_series .wcx_series .block {
+  width: 25%;
+}
+#download .catalog_series .amplifiers_block .block {
+  width: 25%;
+}
+#download .catalog_series .gtx_block .block {
+  width: 50%;
+}
+#download .series_blocks .series_block .block {
+  width: 20% !important;
 }
 
 footer {
