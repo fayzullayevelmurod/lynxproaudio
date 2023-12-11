@@ -3351,7 +3351,6 @@ header {
         display: flex;
         align-items: start;
         gap: 30px;
-        margin-bottom: 54px;
 
         .product_spotlight_card {
             display: flex;
@@ -3392,6 +3391,7 @@ header {
 
     .catalog {
         h3 {
+            margin-top: 54px;
             color: #000;
             font-family: $Lato;
             font-size: 26px;
@@ -3403,6 +3403,77 @@ header {
 
         .catalog_table {
             border: 1px solid #DEDEDE;
+
+            display: flex;
+            align-items: stretch;
+            flex-wrap: wrap;
+
+            .catalog_table_block {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 91px;
+                border: 1px solid #DEDEDE;
+                width: calc(100% / 2);
+
+                p {
+                    color: #333;
+                    text-align: center;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
+            .block_grey {
+                background: #F7F7F7;
+            }
+        }
+    }
+
+    .catalog_series {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+
+        .catalog_table_block {
+            display: flex;
+            align-items: stretch;
+
+            .block_grey {
+                background: #F7F7F7;
+            }
+
+            .block {
+                border: 1px solid #DEDEDE;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 60px;
+                width: calc(100% / 6);
+
+                p {
+                    color: #333;
+                    text-align: center;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                span {
+                    color: #666;
+                    text-align: center;
+                    font-family: $Lato;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
         }
     }
 }

@@ -2913,7 +2913,6 @@ header .burger_open .bottom_none {
   display: flex;
   align-items: start;
   gap: 30px;
-  margin-bottom: 54px;
 }
 #download .product_spotlight_cards .product_spotlight_card {
   display: flex;
@@ -2949,6 +2948,7 @@ header .burger_open .bottom_none {
   background: #000;
 }
 #download .catalog h3 {
+  margin-top: 54px;
   color: #000;
   font-family: "Lato", sans-serif;
   font-size: 26px;
@@ -2959,6 +2959,67 @@ header .burger_open .bottom_none {
 }
 #download .catalog .catalog_table {
   border: 1px solid #DEDEDE;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+#download .catalog .catalog_table .catalog_table_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 91px;
+  border: 1px solid #DEDEDE;
+  width: 50%;
+}
+#download .catalog .catalog_table .catalog_table_block p {
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#download .catalog .catalog_table .block_grey {
+  background: #F7F7F7;
+}
+#download .catalog_series {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+#download .catalog_series .catalog_table_block {
+  display: flex;
+  align-items: stretch;
+}
+#download .catalog_series .catalog_table_block .block_grey {
+  background: #F7F7F7;
+}
+#download .catalog_series .catalog_table_block .block {
+  border: 1px solid #DEDEDE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 16.6666666667%;
+}
+#download .catalog_series .catalog_table_block .block p {
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#download .catalog_series .catalog_table_block .block span {
+  color: #666;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 footer {
