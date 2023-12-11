@@ -3507,6 +3507,360 @@ header {
 // download page
 
 
+// cls page
+#cls {
+    .cls_home {
+        display: flex;
+        align-items: start;
+        gap: 45px;
+        margin: 30px 0;
+
+        .cls_home_left {
+            img {
+                max-width: 570px;
+            }
+        }
+
+        .cls_home_right {
+            h3 {
+                color: #000;
+                font-family: $Lato;
+                font-size: 49px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+
+            h4 {
+                color: #F2AB4D;
+                font-family: $Lato;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            p {
+                margin: 10px 0 29px 0;
+                color: #333;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            button {
+                border-radius: 3px;
+                border: 2px solid #0C71C3;
+                padding: 13px 20px;
+                color: #0C71C3;
+                font-family: $Lato;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .cls_discription {
+        display: flex;
+        align-items: start;
+        gap: 45px;
+
+        .cls_discription_left {
+            h4 {
+                color: #565656;
+                font-family: $Lato;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;  
+                margin-bottom: 30px;  
+            }
+
+            p {
+                max-width: 570px;
+                color: #333;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+
+        .cls_discription_right {
+            .cls_discription_right_top {
+                max-width: 543px;
+                margin-top: 66px;
+                display: flex;
+                align-items: start;
+                gap: 14px;
+
+                h5 {
+                    color: #000;
+                    font-family: $Lato;
+                    font-size: 23px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-bottom: 14px;
+                }
+
+                ul {
+                    margin-bottom: 18px;
+                    li {
+                        color: #000;
+                        font-family: $Lato;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                        margin-bottom: 13px;
+
+                        span {
+                            margin-right: 7px;
+                            color: #F2AB4D;
+                        }
+                    }
+                }
+            }
+
+            .cls_right_img {
+                margin-bottom: 66px;
+                text-align: center;
+                display: block;
+                img {
+                    margin: 0 auto;
+                    max-width: 332px;
+                }
+
+                span {
+                    margin-top: 10px;
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+
+                    button {
+                        color: #F2AB4D;
+                    }
+                }
+            }
+
+            .cls_discription_right_list {
+                display: flex;
+                align-items: start;
+                gap: 18px;
+                margin-bottom: 54px;
+
+                .cls_discription_right_list_right {
+                    h5 {
+                        color: #000;
+                        font-family: $Lato;
+                        font-size: 23px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-bottom: 14px;
+                    }
+                    
+                    ul {
+                        margin-bottom: 40px;
+                        li {
+                            margin-bottom: 10px;
+                            color: #666;
+                            font-family: $Lato;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px;
+                        }
+                    }
+
+                    button {
+                        border-radius: 3px;
+                        border: 2px solid #F2AB4D;
+                        padding: 13px 20px;
+                        color: #333;
+                        font-family: $Lato;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px; /* 120% */
+                    }
+                }
+            }
+        }
+    }
+
+    .cls_technical {
+        display: flex;
+        align-items: start;
+        gap: 53px;
+        margin-bottom: 54px;
+
+        .cls_technical_text {
+            flex: 1;
+            h3 {
+                color: #565656;
+                font-family: $Lato;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 27px;
+            }
+
+            .cls_technical_text_in {
+                display: flex;
+                align-items: start;
+                gap: 30px;
+                margin-bottom: 14px;
+
+                p {
+                    flex: 1;
+                    color: #515151;
+                    font-family: $Lato;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                }
+                 
+                h6 {
+                    flex: 2;
+                    max-width: 370px;
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                }
+            }
+        }
+
+        .cls_technical_img {
+            flex: 1;
+        }
+    }
+
+    .cls_download {
+        background-image: url('../images/cls_download_bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 43px 10px 53px 10px;
+
+        h3 {
+            text-align: center;
+            margin-bottom: 53px;
+            color: #333;
+            font-family: $Lato;
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .main_container {
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            gap: 30px;
+
+            .cls_download_card {
+                width: 170px;
+                text-align: center;
+                a {
+                    margin: 0 auto;
+                    width: 104px;
+                    height: 104px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                p {
+                    margin-top: 24px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: $Lato;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
+    .cls_cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 30px;  
+        margin: 106px 0 54px 0;
+
+        .cls_card {
+            text-align: center;
+            padding: 27px 30px 40px 30px;
+            width: calc(100% / 2 - 15px);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            p {
+                color: #042F40;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            span {
+                margin: 8px 0 20px 0;
+                color: #F2AB4D;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+            }
+
+            button {
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding: 10px 19px;
+                border-radius: 3px;
+                border: 1px solid #000;
+                transition: .2s ease;
+
+                &:hover {
+                    border: 1px solid transparent;
+                    background: #F2F2F2;
+                }
+            }
+        }
+    }
+}
+// cls page
+
 
 
 
