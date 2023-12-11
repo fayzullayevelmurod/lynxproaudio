@@ -2972,6 +2972,11 @@ footer .main_container .footer_right {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 1250px) {
+  #about .philosophy {
+    padding: 40px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .main_container {
     padding: 0 40px;
@@ -3158,6 +3163,32 @@ footer .main_container .footer_right {
   #coaxial .main_container .coaxial_series .coaxial_series_cards .coaxial_series_cards_bottom {
     margin-bottom: 54px;
   }
+  .about_cards .about_card {
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+  .about_cards .about_card .about_card_left img {
+    max-width: 100%;
+  }
+  .about_cards .about_card .about_card_right {
+    width: 544px;
+  }
+  .about_cards .about_card_top,
+  .about_cards .about_card_right {
+    margin-bottom: 30px;
+  }
+  .about_technology .about_technology_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about_technology .about_technology_cards .about_technology_card {
+    max-width: 100%;
+    width: calc(50% - 30px);
+  }
+  .about_contact .contact_messengers {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media only screen and (min-width: 992px) {
   header .media_menu_container .media_menu {
@@ -3277,6 +3308,32 @@ footer .main_container .footer_right {
   #coaxial .main_container .coaxial_series .coaxial_configuration .coaxial_panel .coaxial_panel_block {
     padding-right: 0;
     flex-direction: column;
+  }
+  .about_technology .about_technology_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about_technology .about_technology_cards .about_technology_card {
+    max-width: 100%;
+    width: 100%;
+  }
+  #about .about_home {
+    height: 425px;
+  }
+  #about .about_home .about_btn {
+    width: 80px;
+    height: 80px;
+  }
+  #about .about_home .about_btn span {
+    left: -5px;
+    white-space: nowrap;
+    bottom: -35px;
+  }
+  #about .philosophy {
+    height: auto;
+  }
+  #about .philosophy .philosophy_text {
+    padding: 30px;
   }
 }
 @media only screen and (max-width: 576px) {
