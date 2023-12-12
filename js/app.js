@@ -128,3 +128,41 @@ try {
     console.log(rrr);
 };
 
+
+try {
+    document.querySelectorAll('.catalog_series_mobile').forEach((catalog,index) => {
+        let btns = catalog.querySelectorAll('.catalog_tabs button')
+        let tab_items = catalog.querySelectorAll('.tabs_in ul')
+
+        btns.forEach((btn, btn_idx) => {
+            btn.onclick = () => {
+                let tab = tab_items[btn_idx];
+                btns.forEach(item => {
+                    item.classList.remove('active')
+                })
+                btn.classList.add('active')
+                if (!tab.classList.contains('active')) {
+                    tab_items.forEach(tab => {
+                        if (tab.classList.contains('active')) {
+                            tab.classList.remove('active')
+                            tab.classList.add('end-active')
+                            setTimeout(() => {
+                                tab.classList.remove('end-active')
+                            }, 600);
+                        }
+                    })
+                    setTimeout(() => {
+                        tab_items[btn_idx].classList.add('active')
+                    }, 600);
+                }
+            } 
+        })
+    })  
+
+
+} catch (err) {
+    
+}
+
+
+

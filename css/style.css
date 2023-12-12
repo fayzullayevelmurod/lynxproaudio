@@ -3024,6 +3024,31 @@ header .burger_open .bottom_none {
   font-weight: 400;
   line-height: normal;
 }
+#download .catalog_series_mobile .tabs_in ul:not(.active):not(.end-active) {
+  display: none;
+}
+@keyframes endActive {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes Active {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#download .catalog_series_mobile .tabs_in ul.end-active {
+  animation: endActive linear 0.6s 1;
+}
+#download .catalog_series_mobile .tabs_in ul.active {
+  animation: Active linear 0.6s 1;
+}
 #download .catalog_series {
   display: flex;
   align-items: stretch;
@@ -3819,6 +3844,7 @@ footer .main_container .footer_right {
   padding: 15px 0;
   border-top: 1px solid #FFF;
   background: #1E1E1E;
+  transition: 0.5s ease;
 }
 .footer_modal .main_container {
   display: flex;
@@ -3873,7 +3899,18 @@ footer .main_container .footer_right {
   justify-content: center;
 }
 
+@keyframes footerModal {
+  0% {
+    opacity: 0;
+    bottom: -100%;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
 .footer_modal.active {
+  animation: footerModal linear 0.5s 1;
   display: none;
 }
 
@@ -4139,6 +4176,15 @@ footer .main_container .footer_right {
   }
   #download .product_spotlight_cards .product_spotlight_card {
     width: 100%;
+  }
+  #download .product_spotlight_cards .product_spotlight_card .product_spotlight_card_link {
+    font-size: 18px;
+  }
+  #download .catalog_series {
+    display: none;
+  }
+  #download .catalog_series_mobile {
+    display: block;
   }
   .footer_modal .main_container {
     flex-direction: column;

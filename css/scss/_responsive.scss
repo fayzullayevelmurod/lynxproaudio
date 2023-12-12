@@ -439,8 +439,22 @@
 
             .product_spotlight_card {
                 width: 100%;
+
+                .product_spotlight_card_link {
+                    font-size: 18px;
+                }
             }
         }
+
+        .catalog_series {
+            display: none;
+        }
+
+        .catalog_series_mobile {
+            display: block;
+        }
+
+        
     }
 
 
