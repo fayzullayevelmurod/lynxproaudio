@@ -95,3 +95,12 @@ burger_open.addEventListener('click', () => {
 media_menu.addEventListener('click', () => {
     media_menu.classList.remove('active');
 });
+
+// footer_modal
+let footer_modal_close = document.querySelector('.footer_modal_close');
+let footer_modal = document.querySelector('.footer_modal');
+
+footer_modal_close.addEventListener('click', () => {
+    footer_modal.classList.add('active')
+})
+

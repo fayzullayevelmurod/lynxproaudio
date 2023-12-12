@@ -3835,6 +3835,10 @@ footer .main_container .footer_right {
   justify-content: center;
 }
 
+.footer_modal.active {
+  display: none;
+}
+
 @media only screen and (max-width: 1250px) {
   #about .philosophy {
     padding: 40px;
