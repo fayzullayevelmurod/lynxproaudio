@@ -369,6 +369,62 @@
             align-items: center;
         }
     }
+    
+    #cls {
+        .cls_home {
+            flex-direction: column;
+
+            .cls_home_left  {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cls_discription {
+            flex-direction: column;
+            gap: 30px;
+
+            .cls_discription_right {
+                .cls_discription_right_top {
+                    margin-top: 0px;
+                }
+            }
+        }
+
+        .cls_technical {
+            flex-direction: column;
+        }
+
+        .dsp_confugration {
+            .dsp_features {
+                flex-direction: column;
+                align-items: center;
+
+                .dsp_features_right {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cls_download  {
+            .main_container {
+                flex-wrap: wrap;
+                .cls_download_card {
+                    width: 100%;
+                    width: calc(100% / 3);
+                }
+            }
+        }
+
+        .cls_cards {
+            margin: 30px 0;
+            gap: 10px;
+            .cls_card {
+                width: calc(100%);
+            }
+        }
+    }
 
 }
 
@@ -706,6 +762,38 @@
         .media_menu_container {
             .media_menu {
                 width: 80%;
+            }
+        }
+    }
+
+    #cls {
+        .dsp_confugration {
+            .dsp_features {
+                .dsp_features_left {
+                    .dsp_features_left_in {
+                        .dsp_features_left_block {
+                            flex-direction: column;
+                            gap: 20px;
+                        }
+                    }
+                }
+
+                .dsp_features_right  {
+                    .dsp_features_right_in  {
+                        .dsp_features_right_block {
+                            gap: 20px;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cls_download {
+            .main_container {
+                .cls_download_card {
+                    width: calc(100%);
+                }
             }
         }
     }
