@@ -426,6 +426,19 @@
         }
     }
 
+
+    .footer_modal {
+        .main_container {
+            flex-direction: column;
+            gap: 10px;
+
+            p {
+                margin-right: 0;
+                text-align: center;
+            }
+        }
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -693,6 +706,26 @@
                 padding: 30px;
             }
         }
+    }
+
+    #ocs {
+        .main_container {
+            .ocs_home {
+                flex-direction: column;
+            }
+            .ocs_technology_cards {
+                gap: 30px;
+            }
+
+            .ocs_block_download  {
+                .ocs_download_cards {
+                    .ocs_download_card {
+                        width: calc(100%);
+                    }
+                }
+            }
+        }
+
     }
 
     

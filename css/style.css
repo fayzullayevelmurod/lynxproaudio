@@ -3545,6 +3545,155 @@ header .burger_open .bottom_none {
   background: #F2F2F2;
 }
 
+#ocs .main_container h3 {
+  margin: 27px 0 40px 0;
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#ocs .main_container .ocs_home {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  margin-bottom: 54px;
+}
+#ocs .main_container .ocs_home .ocs_home_left,
+#ocs .main_container .ocs_home .ocs_home_right {
+  flex: 1;
+}
+#ocs .main_container .ocs_home .ocs_home_left p,
+#ocs .main_container .ocs_home .ocs_home_right p {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+#ocs .main_container .ocs_home .ocs_home_left ul li,
+#ocs .main_container .ocs_home .ocs_home_right ul li {
+  list-style-type: disc;
+  margin-bottom: 11px;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+#ocs .main_container .ocs_home .ocs_home_left blockquote,
+#ocs .main_container .ocs_home .ocs_home_right blockquote {
+  max-width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+#ocs .main_container .ocs_home .ocs_home_left blockquote span,
+#ocs .main_container .ocs_home .ocs_home_right blockquote span {
+  width: 6px;
+  height: 100px;
+  background: #333;
+}
+#ocs .main_container .ocs_block_download {
+  margin-bottom: 54px;
+}
+#ocs .main_container .ocs_block_download .ocs_download_cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#ocs .main_container .ocs_block_download .ocs_download_cards .ocs_download_card {
+  background: #EAEAEA;
+  width: calc(50% - 20px);
+  padding: 40px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ocs .main_container .ocs_block_download .ocs_download_cards .ocs_download_card button {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  padding: 13px 22px;
+  border: 1px solid #333;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.2s ease;
+  position: relative;
+}
+#ocs .main_container .ocs_block_download .ocs_download_cards .ocs_download_card button img {
+  position: absolute;
+  transition: 0.3s ease;
+  right: 50px;
+  opacity: 0;
+  z-index: -1;
+}
+#ocs .main_container .ocs_block_download .ocs_download_cards .ocs_download_card button:hover {
+  padding: 13px 45px 13px 25px;
+}
+#ocs .main_container .ocs_block_download .ocs_download_cards .ocs_download_card button:hover img {
+  right: 10px;
+  opacity: 1;
+  z-index: 1;
+}
+#ocs .main_container .ocs_rainbow h4 {
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+#ocs .main_container h5 {
+  margin: 54px 0 27px 0;
+  color: #333;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#ocs .main_container .ocs_technology_cards {
+  margin-bottom: 54px;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+#ocs .main_container .ocs_technology_cards .about_technology_card img {
+  height: 194px;
+}
+#ocs .main_container .ocs_technology_cards .about_technology_card h4 {
+  color: #000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
 footer {
   background: #1E1E1E;
 }
@@ -3622,6 +3771,68 @@ footer .main_container .footer_right {
 }
 .footer_bottom .main_container .footer_messenger a:hover img {
   opacity: 0.5;
+}
+
+.footer_modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  border-top: 1px solid #FFF;
+  background: #1E1E1E;
+}
+.footer_modal .main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_modal .main_container p {
+  max-width: 461px;
+  color: #FFF;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-right: 55px;
+}
+.footer_modal .main_container p a {
+  text-decoration-line: underline;
+}
+.footer_modal .main_container .btns {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.footer_modal .main_container .btn_one,
+.footer_modal .main_container .btn_two {
+  padding: 9px 31px;
+  color: #FFF;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer_modal .main_container .btn_one {
+  border-radius: 90px;
+  background: #F2AB4D;
+}
+.footer_modal .main_container .btn_two {
+  border-radius: 90px;
+  border: 1px solid #FFF;
+}
+.footer_modal .main_container .footer_modal_close {
+  border-radius: 50%;
+  border: 1px solid #FFF;
+  padding: 7px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -3878,6 +4089,14 @@ footer .main_container .footer_right {
   #cls .cls_cards .cls_card {
     width: 100%;
   }
+  .footer_modal .main_container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer_modal .main_container p {
+    margin-right: 0;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 992px) {
   header .media_menu_container .media_menu {
@@ -4023,6 +4242,15 @@ footer .main_container .footer_right {
   }
   #about .philosophy .philosophy_text {
     padding: 30px;
+  }
+  #ocs .main_container .ocs_home {
+    flex-direction: column;
+  }
+  #ocs .main_container .ocs_technology_cards {
+    gap: 30px;
+  }
+  #ocs .main_container .ocs_block_download .ocs_download_cards .ocs_download_card {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 576px) {

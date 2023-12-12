@@ -4095,17 +4095,180 @@ header {
 }
 // cls page
 
+// ocs page
+#ocs {
+    .main_container {
+        h3 {
+            margin: 27px 0 40px 0;
+            color: #333;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
 
+        .ocs_home {
+            display: flex;
+            align-items: start;
+            gap: 30px;
+            margin-bottom: 54px;
 
+            .ocs_home_left ,
+            .ocs_home_right {
+                flex: 1;
 
+                p {
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 27px;
+                    margin-bottom: 30px;
+                }
+                ul {
+                    li {
+                        list-style-type: disc;
+                        margin-bottom: 11px;
+                        color: #333;
+                        font-family: $Lato;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 27px;
+                    }
+                }
 
+                blockquote {
+                    max-width: 100%;
+                    display: flex;
+                    align-items: stretch;
+                    gap: 20px;
+                    color: #333;
+                    font-family: $Lato;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 27px; /* 168.75% */
+                    
+                    span {
+                        width: 6px;
+                        height: 100px;
+                        background: #333;
+                    }
+                }
+            }
+        }
 
+        .ocs_block_download {
+            margin-bottom: 54px;
 
+            .ocs_download_cards {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 30px;
 
+                .ocs_download_card {
+                    background: #EAEAEA;
+                    width: calc(100% / 2 - 20px);
+                    padding: 40px 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
+                    button {
+                        gap: 4px;
+                        display: flex;
+                        align-items: center;
+                        padding: 13px 22px;
+                        border: 1px solid #333;
+                        color: #333;
+                        font-family: $Lato;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        transition: .2s ease;
+                        position: relative;
 
+                        img {
+                            position: absolute;
+                            transition: .3s ease;
+                            right: 50px;
+                            opacity: 0;
+                            z-index: -1;
 
+                        }
 
+                        &:hover {
+                            padding: 13px 45px 13px 25px;
+                            img {
+                                right: 10px;
+                                opacity: 1;
+                                z-index: 1;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        .ocs_rainbow {
+            h4 {
+                color: #333;
+                text-align: center;
+                font-family: $Lato;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 27px;
+            }
+        }
+
+        h5 {
+            margin: 54px 0 27px 0;
+            color: #333;
+            text-align: center;
+            font-family: $Lato;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .ocs_technology_cards {
+            margin-bottom: 54px;
+            display: flex;
+            align-items: start;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 100px;
+
+            .about_technology_card {
+
+                img {
+                    height: 194px;
+                }
+                h4 {
+                    color: #000;
+                    text-align: center;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+// ocs page
 
 // footer
 footer {
@@ -4209,6 +4372,76 @@ footer {
 }
 // footer_bottom
 
+
+// footer_modal
+.footer_modal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid #FFF;
+    background: #1E1E1E;
+    .main_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            max-width: 461px;
+            color: #FFF;
+            font-family: $Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            margin-right: 55px;
+
+            a {
+                text-decoration-line: underline;
+            }
+        }
+
+        .btns {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+        .btn_one,
+        .btn_two {
+            padding: 9px 31px;
+            color: #FFF;
+            text-align: justify;
+            font-family: $Lato;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .btn_one {
+            border-radius: 90px;
+            background: #F2AB4D;
+        }
+
+        .btn_two {
+            border-radius: 90px;
+            border: 1px solid #FFF;
+        }
+
+        .footer_modal_close {
+            border-radius: 50%;
+            border: 1px solid #FFF;
+            padding: 7px;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+// footer_modal
 
 
 // import file scss
