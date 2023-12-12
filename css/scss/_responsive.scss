@@ -426,6 +426,23 @@
         }
     }
 
+    #download {
+
+        .download_home {
+            h3 {
+                font-size: 36px;
+            }
+        }
+
+        .product_spotlight_cards {
+            flex-direction: column;
+
+            .product_spotlight_card {
+                width: 100%;
+            }
+        }
+    }
+
 
     .footer_modal {
         .main_container {

@@ -1,5 +1,4 @@
 
-
 try {
     // home slider
     var swiper = new Swiper(".homeSwiper", {
@@ -18,8 +17,10 @@ try {
             clickable: true
         }
     });
-
-
+} catch (rrr) {
+    console.log(rrr);
+}
+try {
     // news slider
     var swiperNews = new Swiper(".newsSlider", {
         spaceBetween: 30,
@@ -37,7 +38,10 @@ try {
             clickable: true
         }
     });
-
+} catch (rrr) {
+    console.log(rrr);
+}
+try {
     // coaxialSwiper slider
     var swiperNews = new Swiper(".coaxialSwiper", {
         spaceBetween: 30,
@@ -55,7 +59,10 @@ try {
             clickable: true
         }
     });
-
+} catch (rrr) {
+    console.log(rrr);
+}
+try {
     // new slider
     var swiperNew = new Swiper(".newSlider", {
         spaceBetween: 30,
@@ -69,7 +76,11 @@ try {
             prevEl: ".homeSwiper_prev",
         },
     });
+} catch (rrr) {
+    console.log(rrr);
+}
 
+try {
     // search
     let nav_search = document.querySelector('.nav_search');
     let nav_search_block = document.querySelector('.nav_search_block');
@@ -83,9 +94,11 @@ try {
     search_block_close.addEventListener('click', () => {
         nav_search_block.classList.remove('active');
     });
+} catch (rrr) {
+    console.log(rrr);
+};
 
-
-
+try {
     // burger
     let burger_open = document.querySelector('.burger_open');
     let media_menu = document.querySelector('.media_menu');
@@ -98,6 +111,11 @@ try {
         media_menu.classList.remove('active');
     });
 
+} catch (rrr) {
+    console.log(rrr);
+};
+
+try {
     // footer_modal
     let footer_modal_close = document.querySelector('.footer_modal_close');
     let footer_modal = document.querySelector('.footer_modal');

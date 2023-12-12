@@ -2986,6 +2986,44 @@ header .burger_open .bottom_none {
 #download .catalog .catalog_table .block_grey {
   background: #F7F7F7;
 }
+#download .catalog_series_mobile {
+  display: none;
+  border: 1px solid #DEDEDE;
+}
+#download .catalog_series_mobile .catalog_tabs {
+  background-color: #f4f4f4;
+}
+#download .catalog_series_mobile .catalog_tabs button {
+  padding: 4px 30px;
+  text-align: left;
+  width: 100%;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: 0.2s ease;
+}
+#download .catalog_series_mobile .catalog_tabs button.active {
+  color: #000;
+  background-color: #fff;
+}
+#download .catalog_series_mobile ul {
+  padding: 30px;
+}
+#download .catalog_series_mobile ul li {
+  margin-bottom: 14px;
+}
+#download .catalog_series_mobile ul li a {
+  width: 100%;
+  color: #ff9e1b;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 #download .catalog_series {
   display: flex;
   align-items: stretch;
@@ -4091,6 +4129,15 @@ footer .main_container .footer_right {
     gap: 10px;
   }
   #cls .cls_cards .cls_card {
+    width: 100%;
+  }
+  #download .download_home h3 {
+    font-size: 36px;
+  }
+  #download .product_spotlight_cards {
+    flex-direction: column;
+  }
+  #download .product_spotlight_cards .product_spotlight_card {
     width: 100%;
   }
   .footer_modal .main_container {

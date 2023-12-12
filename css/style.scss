@@ -3434,6 +3434,48 @@ header {
         }
     }
 
+    .catalog_series_mobile {
+        display: none;
+        border: 1px solid #DEDEDE;
+
+        .catalog_tabs {
+            background-color: #F4F4F4FF;
+            button {
+                padding: 4px 30px;
+                text-align: left;
+                width: 100%;
+                color: #333;
+                font-family: $Lato;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                transition: .2s ease;
+            }
+
+            button.active {
+                color: #000;
+                background-color: #fff;
+            }
+
+        }
+        ul {
+            padding: 30px;
+            li {
+                margin-bottom: 14px;
+                a {
+                    width: 100%;
+                    color: #ff9e1b;
+                    font-family: $Lato;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+
     .catalog_series {
         display: flex;
         align-items: stretch;
