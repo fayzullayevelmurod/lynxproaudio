@@ -165,4 +165,23 @@ try {
 }
 
 
+let about_btn = document.querySelector('.about_btn');
+let video_modal = document.querySelector('.video_modal');
+let about_bg = document.querySelector('.about_bg');
+
+about_btn.addEventListener('click', () => {
+    video_modal.classList.add('active');
+    about_bg.classList.add('.active');
+})
+
+about_bg.addEventListener('click', () => {
+    video_modal.classList.remove('active');
+    about_bg.classList.remove('.active');
+})
+
+
+
+
+
+
 
