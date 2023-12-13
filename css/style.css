@@ -2535,6 +2535,26 @@ header .burger_open .bottom_none {
   position: relative;
   height: 725px;
 }
+#about .about_home .about_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#about .about_home #myVideo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+}
 #about .about_home .about_btn {
   text-align: center;
   padding: 25px;
@@ -2546,6 +2566,7 @@ header .burger_open .bottom_none {
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
+  z-index: 3;
 }
 #about .about_home .about_btn span {
   position: absolute;
@@ -3842,6 +3863,7 @@ footer .main_container .footer_right {
   left: 0;
   width: 100%;
   padding: 15px 0;
+  z-index: 4;
   border-top: 1px solid #FFF;
   background: #1E1E1E;
   transition: 0.5s ease;
@@ -4388,5 +4410,26 @@ footer .main_container .footer_right {
   }
   #cls .cls_download .main_container .cls_download_card {
     width: 100%;
+  }
+  #about .philosophy {
+    padding: 10px;
+  }
+  #about .philosophy .philosophy_text .philosophy_text_p {
+    margin-bottom: 15px;
+  }
+  #about .about_home .about_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+  }
+  #about .about_home .about_btn img {
+    max-width: 25px;
+  }
+  #about .about_home .about_btn span {
+    font-size: 16px;
+    left: -10px;
+    bottom: -25px;
   }
 }/*# sourceMappingURL=style.css.map */
