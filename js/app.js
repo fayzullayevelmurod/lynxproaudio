@@ -107,9 +107,9 @@ try {
         media_menu.classList.toggle('active');
     });
 
-    media_menu.addEventListener('click', () => {
-        media_menu.classList.remove('active');
-    });
+    // media_menu.addEventListener('click', () => {
+    //     media_menu.classList.remove('active');
+    // });
 
 } catch (rrr) {
     console.log(rrr);
@@ -165,19 +165,73 @@ try {
 }
 
 
-let about_btn = document.querySelector('.about_btn');
-let video_modal = document.querySelector('.video_modal');
-let about_bg = document.querySelector('.about_bg');
+try {
+    let about_btn = document.querySelector('.about_btn');
+    let video_modal = document.querySelector('.video_modal');
+    let about_bg = document.querySelector('.about_bg');
+    
+    about_btn.addEventListener('click', () => {
+        video_modal.classList.add('active');
+        about_bg.classList.add('.active');
+    });
+    
+    about_bg.addEventListener('click', () => {
+        video_modal.classList.remove('active');
+        about_bg.classList.remove('.active');
+    });
+    
+} catch (err) {
 
-about_btn.addEventListener('click', () => {
-    video_modal.classList.add('active');
-    about_bg.classList.add('.active');
+}
+
+let nav_item_media = document.querySelectorAll('.nav_item_media')  
+
+nav_item_media.forEach(item => {
+    
+    const nav_item_media_btn = item.querySelector('a')
+    const support_media_menu = item.querySelector('.support_media_menu')
+    nav_item_media_btn.addEventListener('click', (e) => {
+        e.preventDefault()
+        item.classList.toggle('active')
+        if (support_media_menu) {
+            support_media_menu.classList.toggle('active')
+        }
+    })
 })
 
-about_bg.addEventListener('click', () => {
-    video_modal.classList.remove('active');
-    about_bg.classList.remove('.active');
-})
+
+try {
+
+    let support_drop = document.querySelectorAll('.support_drop a');
+    let dropdown_menu = document.querySelectorAll('.dropdown_menu');
+    let dropdown_close = document.querySelectorAll('.dropdown_menu .dropdown_close');
+
+    support_drop.forEach((item, index) => {
+        item.onclick = e => {
+            e.preventDefault()
+            dropdown_menu.forEach((menu, idx) => {
+                if (index !== idx) {
+                    menu.classList.remove('active')
+                }
+            })
+
+            dropdown_menu[index].classList.toggle('active')
+        }
+    }) 
+
+    dropdown_close.forEach(item => {
+        item.onclick = () => {
+            dropdown_menu.forEach((menu, idx) => {
+                menu.classList.remove('active')
+                
+            })
+        }
+    })
+
+
+} catch (err) {
+
+}
 
 
 
