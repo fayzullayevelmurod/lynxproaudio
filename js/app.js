@@ -202,6 +202,25 @@ nav_item_media.forEach(item => {
 
 try {
 
+    const el = document.createElement('div')
+    el.classList.add('dropdown_menu_bg')
+    const body = document.querySelector('body')
+    body.appendChild(el)
+
+
+    let dropdown_in = document.querySelectorAll('.dropdown_in a');
+    let dropdown_link_item = document.querySelectorAll('.dropdown_link_item a');
+    
+    [...dropdown_in, ...dropdown_link_item].forEach(item => {
+        item.onclick = () => {
+            dropdown_menu.forEach((menu, idx) => {
+                menu.classList.remove('active')
+            })
+            document.querySelector('.dropdown_menu_bg').classList.remove('active')
+        }
+    })
+
+
     let support_drop = document.querySelectorAll('.support_drop a');
     let dropdown_menu = document.querySelectorAll('.dropdown_menu');
     let dropdown_close = document.querySelectorAll('.dropdown_menu .dropdown_close');
@@ -215,15 +234,23 @@ try {
                 }
             })
 
-            dropdown_menu[index].classList.toggle('active')
+            dropdown_menu[index].classList.add('active')
+            document.querySelector('.dropdown_menu_bg').classList.add('active')
+            
         }
     }) 
+
+    document.querySelector('.dropdown_menu_bg').onclick = () => {
+        dropdown_menu.forEach((menu, idx) => {
+            menu.classList.remove('active')
+        })
+    }
 
     dropdown_close.forEach(item => {
         item.onclick = () => {
             dropdown_menu.forEach((menu, idx) => {
                 menu.classList.remove('active')
-                
+                document.querySelector('.dropdown_menu_bg').classList.remove('active')
             })
         }
     })
@@ -232,10 +259,3 @@ try {
 } catch (err) {
 
 }
-
-
-
-
-
-
-
